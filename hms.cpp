@@ -350,14 +350,15 @@ int main() {
                     cin>>pchoice;
                     string fullname;
                     switch (pchoice) {
+                        
                         case 1:
+                            p1.DocAvailibilty();
+                            break;
+                        case 2:
                             cout << "Can you please confirm your full name : ";
 
                             cin >> fullname;
                             p1.fileopener(fullname);
-                            break;
-                        case 2:
-                            p1.DocAvailibilty();
                             break;
                         default:
                             break;
