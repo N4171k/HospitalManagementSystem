@@ -444,7 +444,7 @@ int main() {
                         break;
                 }
             }
-//            cout << "Total number of active Patients :\t" << tPATIENT << endl;
+
             inputFile.close();
             outputFile.close(); // Close the output file
 
